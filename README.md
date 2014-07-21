@@ -11,14 +11,14 @@ the system woke up again.
     /* If the system idles for 5 seconds, call the function notify. */
     var sleepy = new SleepTime(function(diff,date){
                                   console.log("System slept for" + diff + " seconds" + 
-                                              " and woke up at " + time);}, 5000);
+                                              " and woke up at " + date);}, 5000);
     
     /* You don't have to specify a threshold. The module defaults the threshold to 10 seconds.  
      * So this works too: 
      */
     var sleepy = new SleepTime(function(diff,date){
                                   console.log("System slept for" + diff + " seconds" + 
-                                              " and woke up at " + time);});
+                                              " and woke up at " + date);});
 ```
 
 ##Note:

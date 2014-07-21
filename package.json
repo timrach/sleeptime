@@ -1,6 +1,6 @@
 {
   "name": "sleeptime",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detects when the system wakes up from sleep mode and calls a callback function.",
   "author": {
     "name" : "Tim Rach",
