@@ -1,10 +1,10 @@
-#SleepTime
+# SleepTime
 
 Detects when the system wakes up from sleep mode and calls a callback function.   
 The callback gets passed the duration the system was in sleep mode and the date
 the system woke up again.
 
-##Usage
+## Usage
 
 ```javascript
     var SleepTime = require('sleeptime');
@@ -21,7 +21,7 @@ the system woke up again.
                                               " and woke up at " + date);});
 ```
 
-##Note:
+## Note:
 The module was only tested on OSX...I can't say if it works on other systems but i don't see why it should not :)
 
 
